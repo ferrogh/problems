@@ -1,0 +1,6 @@
+1. Contoh code smellnya adalah misal ada Class A dan Class B.
+   Class A dan Class B sama-sama memiliki method abc yang identik.
+   Hal ini merupakan code smell karena terjadi pengulangan kode yang sama.
+   Untuk menghindarinya dapat menggunakan prinsip inheritance.
+   Misal membuat Superclass C dengan method abc, dengan melakukan A extends C dan B extends C,
+   Class A dan Class B sama-sama dapat memanggil method abc tanpa terjadi penulisan kode yang sama berulang kali
